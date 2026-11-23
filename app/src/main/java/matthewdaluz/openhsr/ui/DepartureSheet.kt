@@ -1,4 +1,4 @@
-package io.github.matthewdaluz.openhsr.ui
+package matthewdaluz.openhsr.ui
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -39,17 +39,17 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import io.github.matthewdaluz.openhsr.Boards
-import io.github.matthewdaluz.openhsr.LocationStatus
-import io.github.matthewdaluz.openhsr.RefreshStatus
-import io.github.matthewdaluz.openhsr.StopSelection
-import io.github.matthewdaluz.openhsr.data.Departure
-import io.github.matthewdaluz.openhsr.data.HamiltonZone
-import io.github.matthewdaluz.openhsr.data.NearbyStop
-import io.github.matthewdaluz.openhsr.data.ScheduleInfo
-import io.github.matthewdaluz.openhsr.data.Stop
-import io.github.matthewdaluz.openhsr.data.firstDate
-import io.github.matthewdaluz.openhsr.data.lastBoardDate
+import matthewdaluz.openhsr.Boards
+import matthewdaluz.openhsr.LocationStatus
+import matthewdaluz.openhsr.RefreshStatus
+import matthewdaluz.openhsr.StopSelection
+import matthewdaluz.openhsr.data.Departure
+import matthewdaluz.openhsr.data.HamiltonZone
+import matthewdaluz.openhsr.data.NearbyStop
+import matthewdaluz.openhsr.data.ScheduleInfo
+import matthewdaluz.openhsr.data.Stop
+import matthewdaluz.openhsr.data.firstDate
+import matthewdaluz.openhsr.data.lastBoardDate
 import java.time.Duration
 import java.time.Instant
 import java.time.LocalDate

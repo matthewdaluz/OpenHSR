@@ -1,4 +1,4 @@
-package io.github.matthewdaluz.openhsr.ui
+package matthewdaluz.openhsr.ui
 
 import android.graphics.RectF
 import androidx.compose.runtime.Composable
@@ -18,10 +18,10 @@ import androidx.compose.ui.viewinterop.AndroidView
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.compose.LocalLifecycleOwner
-import io.github.matthewdaluz.openhsr.MapBus
-import io.github.matthewdaluz.openhsr.MapFocus
-import io.github.matthewdaluz.openhsr.data.Coordinates
-import io.github.matthewdaluz.openhsr.data.Stop
+import matthewdaluz.openhsr.MapBus
+import matthewdaluz.openhsr.MapFocus
+import matthewdaluz.openhsr.data.Coordinates
+import matthewdaluz.openhsr.data.Stop
 import org.maplibre.android.camera.CameraPosition
 import org.maplibre.android.camera.CameraUpdateFactory
 import org.maplibre.android.geometry.LatLng

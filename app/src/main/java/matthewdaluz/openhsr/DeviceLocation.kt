@@ -1,4 +1,4 @@
-package io.github.matthewdaluz.openhsr
+package matthewdaluz.openhsr
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -11,7 +11,7 @@ import android.os.Bundle
 import android.os.Looper
 import android.os.SystemClock
 import androidx.core.content.ContextCompat
-import io.github.matthewdaluz.openhsr.data.Coordinates
+import matthewdaluz.openhsr.data.Coordinates
 import java.util.concurrent.TimeUnit
 import kotlin.coroutines.resume
 import kotlinx.coroutines.suspendCancellableCoroutine

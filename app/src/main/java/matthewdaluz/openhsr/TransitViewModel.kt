@@ -1,4 +1,4 @@
-package io.github.matthewdaluz.openhsr
+package matthewdaluz.openhsr
 
 import android.app.Application
 import android.util.Log
@@ -6,15 +6,15 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.viewModelScope
 import androidx.room.Room
-import io.github.matthewdaluz.openhsr.data.Coordinates
-import io.github.matthewdaluz.openhsr.data.Departure
-import io.github.matthewdaluz.openhsr.data.HamiltonFeed
-import io.github.matthewdaluz.openhsr.data.NearbyStop
-import io.github.matthewdaluz.openhsr.data.ScheduleDatabase
-import io.github.matthewdaluz.openhsr.data.Stop
-import io.github.matthewdaluz.openhsr.data.TripSnapshot
-import io.github.matthewdaluz.openhsr.data.VehicleSnapshot
-import io.github.matthewdaluz.openhsr.data.nearbyStops
+import matthewdaluz.openhsr.data.Coordinates
+import matthewdaluz.openhsr.data.Departure
+import matthewdaluz.openhsr.data.HamiltonFeed
+import matthewdaluz.openhsr.data.NearbyStop
+import matthewdaluz.openhsr.data.ScheduleDatabase
+import matthewdaluz.openhsr.data.Stop
+import matthewdaluz.openhsr.data.TripSnapshot
+import matthewdaluz.openhsr.data.VehicleSnapshot
+import matthewdaluz.openhsr.data.nearbyStops
 import java.time.Clock
 import java.time.Instant
 import java.time.LocalDate

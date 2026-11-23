@@ -1,4 +1,4 @@
-package io.github.matthewdaluz.openhsr.ui
+package matthewdaluz.openhsr.ui
 
 import android.Manifest
 import androidx.activity.compose.BackHandler
@@ -48,11 +48,11 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import io.github.matthewdaluz.openhsr.LocationStatus
-import io.github.matthewdaluz.openhsr.TransitViewModel
-import io.github.matthewdaluz.openhsr.data.Stop
-import io.github.matthewdaluz.openhsr.data.searchStops
-import io.github.matthewdaluz.openhsr.hasLocationPermission
+import matthewdaluz.openhsr.LocationStatus
+import matthewdaluz.openhsr.TransitViewModel
+import matthewdaluz.openhsr.data.Stop
+import matthewdaluz.openhsr.data.searchStops
+import matthewdaluz.openhsr.hasLocationPermission
 import kotlin.math.roundToInt
 import kotlinx.coroutines.launch
 

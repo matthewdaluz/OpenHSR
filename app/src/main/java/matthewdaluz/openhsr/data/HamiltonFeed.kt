@@ -1,4 +1,4 @@
-package io.github.matthewdaluz.openhsr.data
+package matthewdaluz.openhsr.data
 
 import androidx.room.withTransaction
 import com.google.transit.realtime.GtfsRealtime.FeedMessage

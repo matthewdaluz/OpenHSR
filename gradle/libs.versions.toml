@@ -1,0 +1,34 @@
+[versions]
+activityCompose = "1.13.0"
+androidSdkOpengl = "13.7.1"
+commonsCsv = "1.14.1"
+composeBom = "2026.11.01"
+composeFoundation = "1.13.0"
+composeMaterial3 = "1.5.0"
+gtfsRealtimeBindings = "0.2.0"
+junit = "1.3.0"
+junitVersion = "4.13.2"
+lifecycle = "2.11.1"
+okhttp = "5.5.1"
+room = "2.8.5"
+runner = "1.7.0"
+
+[libraries]
+android-sdk-opengl = { group = "org.maplibre.gl", name = "android-sdk-opengl", version.ref = "androidSdkOpengl" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-compose-foundation = { group = "androidx.compose.foundation", name = "foundation", version.ref = "composeFoundation" }
+androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3", version.ref = "composeMaterial3" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junit" }
+androidx-lifecycle-runtime-compose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "lifecycle" }
+androidx-lifecycle-viewmodel-compose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "lifecycle" }
+androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+androidx-runner = { group = "androidx.test", name = "runner", version.ref = "runner" }
+commons-csv = { group = "org.apache.commons", name = "commons-csv", version.ref = "commonsCsv" }
+gtfs-realtime-bindings = { group = "org.mobilitydata", name = "gtfs-realtime-bindings", version.ref = "gtfsRealtimeBindings" }
+junit = { group = "junit", name = "junit", version.ref = "junitVersion" }
+okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
+
+[plugins]

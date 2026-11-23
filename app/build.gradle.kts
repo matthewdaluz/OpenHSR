@@ -6,12 +6,16 @@ plugins {
 }
 
 android {
-    namespace = "io.github.matthewdaluz.openhsr"
-    compileSdk = 36
+    namespace = "matthewdaluz.openhsr"
+    compileSdk {
+        version = release(37) {
+            minorApiLevel = 1
+        }
+    }
     defaultConfig {
-        applicationId = "io.github.matthewdaluz.openhsr"
+        applicationId = "matthewdaluz.openhsr"
         minSdk = 26
-        targetSdk = 36
+        targetSdk = 37
         versionCode = 1
         versionName = "0.1.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
@@ -26,21 +30,21 @@ android {
 kotlin { jvmToolchain(17) }
 
 dependencies {
-    implementation(platform("androidx.compose:compose-bom:2025.10.01"))
-    implementation("androidx.activity:activity-compose:1.11.0")
-    implementation("androidx.compose.foundation:foundation")
-    implementation("androidx.compose.material3:material3")
-    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.9.4")
-    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.9.4")
-    implementation("androidx.room:room-runtime:2.8.4")
-    implementation("androidx.room:room-ktx:2.8.4")
-    ksp("androidx.room:room-compiler:2.8.4")
+    implementation(platform(libs.androidx.compose.bom))
+    implementation(libs.androidx.activity.compose)
+    implementation(libs.androidx.compose.foundation)
+    implementation(libs.androidx.compose.material3)
+    implementation(libs.androidx.lifecycle.runtime.compose)
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+    implementation(libs.androidx.room.runtime)
+    implementation(libs.androidx.room.ktx)
+    ksp(libs.androidx.room.compiler)
 
-    implementation("org.maplibre.gl:android-sdk-opengl:13.5.4")
-    implementation("com.squareup.okhttp3:okhttp:4.12.0")
-    implementation("org.apache.commons:commons-csv:1.10.0")
-    implementation("org.mobilitydata:gtfs-realtime-bindings:0.2.0")
-    testImplementation("junit:junit:4.13.2")
-    androidTestImplementation("androidx.test.ext:junit:1.3.0")
-    androidTestImplementation("androidx.test:runner:1.7.0")
+    implementation(libs.android.sdk.opengl)
+    implementation(libs.okhttp)
+    implementation(libs.commons.csv)
+    implementation(libs.gtfs.realtime.bindings)
+    testImplementation(libs.junit)
+    androidTestImplementation(libs.androidx.junit)
+    androidTestImplementation(libs.androidx.runner)
 }

@@ -1,4 +1,4 @@
-package io.github.matthewdaluz.openhsr
+package matthewdaluz.openhsr
 
 import android.graphics.Color
 import android.os.Bundle
@@ -10,7 +10,7 @@ import androidx.activity.viewModels
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
-import io.github.matthewdaluz.openhsr.ui.OpenHsrScreen
+import matthewdaluz.openhsr.ui.OpenHsrScreen
 import kotlinx.coroutines.launch
 import okhttp3.OkHttpClient
 import org.maplibre.android.MapLibre

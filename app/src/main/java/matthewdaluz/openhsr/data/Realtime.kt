@@ -1,4 +1,4 @@
-package io.github.matthewdaluz.openhsr.data
+package matthewdaluz.openhsr.data
 
 import com.google.transit.realtime.GtfsRealtime.FeedHeader.Incrementality
 import com.google.transit.realtime.GtfsRealtime.FeedMessage

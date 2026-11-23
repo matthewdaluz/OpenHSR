@@ -1,4 +1,4 @@
-package io.github.matthewdaluz.openhsr.data
+package matthewdaluz.openhsr.data
 
 import androidx.room.Dao
 import androidx.room.Database

@@ -1,4 +1,4 @@
-package io.github.matthewdaluz.openhsr.data
+package matthewdaluz.openhsr.data
 
 import java.time.Instant
 import java.time.LocalDate
